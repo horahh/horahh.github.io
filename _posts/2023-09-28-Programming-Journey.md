@@ -34,4 +34,3 @@ I loved the simplicity and cleanliness of the python code, making indenting mand
 
 ## Rust
 Having dealt a lot of time debugging memory errors, null pointers, leaking memory modules, etc. let me to be amazed by the promess of not having to deal with memory problems by simply using the language, which would better be stated as not having to deal with memory problems at runtime which means pushing these at compile time!
-
