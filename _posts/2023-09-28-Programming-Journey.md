@@ -1,6 +1,6 @@
 ---
-title: Programming Journey 
-date: 2023-09-27 12:00:00 -600
+title: Journey
+date: 2023-09-28 12:00:00 -0600
 categories: [programming,software]
 tags: [programming,hardware,software,rust,python]
 ---
