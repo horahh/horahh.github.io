@@ -1,5 +1,5 @@
 ---
-title: Exploring computers and algorithms
+title: First Post 
 date: 2023-09-27 12:00:00 -600
 categories: [programming,software]
 tags: [programming,hardware,software,rust,python]
