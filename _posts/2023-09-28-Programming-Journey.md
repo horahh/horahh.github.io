@@ -27,6 +27,11 @@ C was the first programming language intruduced to me in high school but really 
 
 ## Perl
 
+I was introduced to Perl at university in an optional course about open source, in which Perl was used to parse text do file tests and small scripts which I found very intuitive to use and powerful. Using it at professional level lead me to realize how inconvenient and limited it was for doing big projects. It is called write only language for a reason.
+
 ## Python
+I loved the simplicity and cleanliness of the python code, making indenting mandatory and actual part of the syntax was something very novel for me at the time.
 
 ## Rust
+Having dealt a lot of time debugging memory errors, null pointers, leaking memory modules, etc. let me to be amazed by the promess of not having to deal with memory problems by simply using the language, which would better be stated as not having to deal with memory problems at runtime which means pushing these at compile time!
+
