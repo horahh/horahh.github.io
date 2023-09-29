@@ -55,4 +55,6 @@ Rust is a really efficient language that attempts to implement what the call a t
 
 Rust has caught my interest since 2020 and I have dedicated some time to learning it sporadically but being more serious about it in 2023. Hopefully I can explore more about the language with cool projects and share some learnings.
 
+A good article explaining Rust advantages and how does it fit into our current world is one from  Micah Wylde, explaining most Rust strengths in detail, very recomended lecture:
+
 [Rust For Data Infra](https://www.arroyo.dev/blog/rust-for-data-infra)
