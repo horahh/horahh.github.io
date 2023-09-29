@@ -28,13 +28,7 @@ Flame Graphs are images but it goes beyond that, they are svg file that are inte
 
 ![Flame Graph](https://www.chromium.org/developers/profiling-flame-graphs/flamegraph.png){: width="350" height="200" }
 
-Image credit: [chromium project](https://www.chromium.org/developers/profiling-flame-graphs/).
+image credit: [chromium project](https://www.chromium.org/developers/profiling-flame-graphs/)
 
-
-## First Rust Profiling Project
-
-A little optimization project [zip_test](https://github.com/horahh/zip_test) in which I am working for processing file contents within a zip file using Rust.
-
-The code heavily relies on parallel library rayon and using iterators, closures and map reduce functions which is very functional influenced syntax.
 
 ## TO BE CONTINUED...
