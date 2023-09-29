@@ -25,3 +25,4 @@ It is important to have a baseline of a single thread program performance to und
 Flame Graphs are images but it goes beyond that, they are svg file that are interactive so that you can select a specific call and kind of zoom and better uderstand what are the particular details related to the time spent by a function and how is distributed based on what other funtions were called by it.
 
 ![Flame Graph](https://www.chromium.org/developers/profiling-flame-graphs/flamegraph.png)
+image credit: [chromium project](https://www.chromium.org/developers/profiling-flame-graphs/)
