@@ -5,7 +5,9 @@ categories: [programming,software]
 tags: [programming,hardware,software,rust,python]
 ---
 
-I have always been amazed on building things and make a more complex version of the small block constructions I used to play with since kindergarden.
+I have always been amazed by building things and making a more complex version of projects, being in my childhood  playing with small wooden block structures trying to make a mechanical structure at the kindergarden or prefering to program a general solution for a mechanical engineering problem at the university rather than just solving it for a single set of values. 
+
+I had always preferred the more challenging elegant solution that take deep understanding of the underlying set of circumstances for general problems rather that quick hacks that take care of the immediate issue at hand.
 
 Each one of the experiences in programming just made me even more interested in abstracting ideas and making them become a reality.
 I am interested in systems programming and high performance. I am a firm believer that the high performance and any cool thing that comes to mind must have a really good quality base in order to scale, in order to thrive when having to survive in the wild.
