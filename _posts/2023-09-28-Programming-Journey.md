@@ -1,11 +1,10 @@
 ---
-title: First Post
+title: My Programming Journey
 date: 2023-09-27 12:00:00 -0600
 categories: [programming,software]
 tags: [programming,hardware,software,rust,python]
 ---
 
-# Programming Journey
 I have always been amazed on building things and make a more complex version of the small block constructions I used to play with since kindergarden.
 Each one of the experiences in programming just made me even more interested in abstracting ideas and making them become a reality.
 I am interested in systems programming and high performance. I am a firm believer that the high performance and any cool thing that comes to mind must have a really good quality base in order to scale, in order to thrive when having to survive in the wild.
