@@ -34,20 +34,21 @@ C was the first programming language intruduced to me in high school but really 
 Still C is as reliable as always, I believe is the best high level language to understand how computers work, it has a simple syntax, simple and efficient libraries, its drawback is the productivity for real work, is expensive to program in C which makes it a language suitable only for very high performance applications given the resource constraints of the system.  
 
 ## Perl
+
 I was introduced to Perl at university in an optional course about open source, in which Perl was used to parse text do file tests and small scripts which I found very intuitive to use and powerful. Using it at professional level lead me to realize how inconvenient and limited it was for doing big projects. It is called write only language for a reason.
 
 ## Python
+
 I loved the simplicity and cleanliness of the python code, making indenting mandatory and actual part of the syntax was something very novel for me at the time.
 
 ## Rust
+
 I have dealt with memory errors like null pointers, leaking memory modules, applications that write to an array out of bounds, etc, specially when being pressure to be really to align to a deadline having no clue on how to reliably reproduce an issue even worse how the code is suppose to behave, because you end up dealing with code written by others and poorly documented. 
 
 I could not help but to be amazed by the Rust promess of not having to deal with memory problems by simply using the language, which would better be stated as not having to deal with memory problems at runtime which means pulling these at compile time, so the game turns into understanding what the compiler complains are about and how to properl solve them. But once the code compiles there is little else to be done which is amazing.
 
 # Rust Mindset 
+
 Rust is a really efficient language that attempts to implement what the call a trifecta, being safe, fast and concurrent, that even went noticed by the linux kernel becoming this year the second language available for use in the linux kernel.
 
 Rust has caught my interest since 2020 and I have dedicated some time to learning it sporadically but being more serious about it in 2023. Hopefully I can explore more about the language with cool projects and share some learnings.
-
-
-
