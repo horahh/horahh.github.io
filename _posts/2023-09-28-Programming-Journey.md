@@ -22,7 +22,7 @@ I want to pick a few of the main languages that I have came across so that gives
 
 ![LOGO](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/KochTurtleAnim.gif/300px-KochTurtleAnim.gif)
 
-At the age of 11 my mother took me for a week into a programming course, turns out it was LOGO, I enjoyed the abstraction concepts and having to imagine in your mind what is going to happen to the turtle once he will execute the instructions, those were like right 50, up 50, left 50, down 50 and you just draw a square!
+At the age of 11 my mother took me for a week into a programming course, turns out it was LOGO, I enjoyed the abstraction concepts and having to simulate in your mind what is going to happen to the screen when the little turtle executes the instructions, those were like right 50, up 50, left 50, down 50 and you just draw a square!
 
 I remember to have tried drawing more complex figures like a castle and it was a nightmare, first debug experience!
 
