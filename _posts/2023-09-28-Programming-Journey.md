@@ -54,3 +54,7 @@ I could not help but to be amazed by the Rust promess of not having to deal with
 Rust is a really efficient language that attempts to implement what the call a trifecta, being safe, fast and concurrent, that even went noticed by the linux kernel becoming this year the second language available for use in the linux kernel.
 
 Rust has caught my interest since 2020 and I have dedicated some time to learning it sporadically but being more serious about it in 2023. Hopefully I can explore more about the language with cool projects and share some learnings.
+
+A good article to better understand why Rust is so unique and interesting for modern high optimization problems is [Rust is the Best Language For Data Infra](https://www.arroyo.dev/blog/rust-for-data-infra) explaining Rust advantages and how does it fit into our current world, written by  Micah Wylde, explaining most Rust strengths in detail, very recomended lecture.
+
+## TO BE CONTINUED ...

@@ -22,13 +22,18 @@ It is important to have a baseline of a single thread program performance to und
 
 ## Flamegraphs
 
-[Flame Graphs](https://www.brendangregg.com/flamegraphs.html) are a visualization based on sampling of the call stack at quantized moments to statistically reflect from the total spent time running (sampling) an application what function did the program was running and tying that to the respective call stack, the samples with the same call stack get grouped togheter showing a representation of time based on the width of each function call in the stack.
+[Flame Graphs](https://www.brendangregg.com/flamegraphs.html) are visualizations based call stack sampled at quantized moments to statistically reflect from the total spent time running (sampling) an application what function did the program was running and tying that to the respective call stack, the samples with the same call stack get grouped togheter showing a representation of time based on the width of each function call in the stack.
 
 Flame Graphs are images but it goes beyond that, they are svg file that are interactive so that you can select a specific call and kind of zoom and better uderstand what are the particular details related to the time spent by a function and how is distributed based on what other funtions were called by it.
 
 ![Flame Graph](https://www.chromium.org/developers/profiling-flame-graphs/flamegraph.png){: width="350" height="200" }
 
-image credit: [chromium project](https://www.chromium.org/developers/profiling-flame-graphs/)
+Image credit: [chromium project](https://www.chromium.org/developers/profiling-flame-graphs/).
 
+## First Rust Profiling Project
+
+A little optimization project [zip_test](https://github.com/horahh/zip_test) in which I am working for processing file contents within a zip file using Rust.
+
+The code heavily relies on parallel library rayon and using iterators, closures and map reduce functions which is very functional influenced syntax.
 
 ## TO BE CONTINUED...
