@@ -6,9 +6,12 @@ tags: [programming,hardware,software,rust,python]
 ---
 
 I have always been amazed on building things and make a more complex version of the small block constructions I used to play with since kindergarden.
+
 Each one of the experiences in programming just made me even more interested in abstracting ideas and making them become a reality.
 I am interested in systems programming and high performance. I am a firm believer that the high performance and any cool thing that comes to mind must have a really good quality base in order to scale, in order to thrive when having to survive in the wild.
+
 I have learnt a thing or two about programming and engineering in general and I want to share them in this blog, hopefully this will be useful as well as entertaining.
+
 Programming is about tradeoffs, each programming has its strenghts and weaknesses, learning various languages makes you think with different approaches to a problem. In a very shallow approach we can simplify things and say that C values speed over safety and productivity, Python values productivity over speed. Rust values safety and speed but lacks in short term productivity, more on that later.
 
 I want to pick a few of the main languages that I have came across so that gives a context and some idea of where I come from with my view points.
@@ -16,6 +19,7 @@ I want to pick a few of the main languages that I have came across so that gives
 ## LOGO
 
 At the age of 11 my mother took me for a week into a programming course, turns out it was LOGO, I enjoyed the abstraction concepts and having to imagine in your mind what is going to happen to the turtle once he will execute the instructions, those were like right 50, up 50, left 50, down 50 and you just draw a square!
+
 I remember to have tried drawing more complex figures like a castle and it was a nightmare, first debug experience!
 
 
@@ -42,6 +46,7 @@ I could not help but to be amazed by the Rust promess of not having to deal with
 
 # Rust Mindset 
 Rust is a really efficient language that attempts to implement what the call a trifecta, being safe, fast and concurrent, that even went noticed by the linux kernel becoming this year the second language available for use in the linux kernel.
+
 Rust has caught my interest since 2020 and I have dedicated some time to learning it sporadically but being more serious about it in 2023. Hopefully I can explore more about the language with cool projects and share some learnings.
 
 
