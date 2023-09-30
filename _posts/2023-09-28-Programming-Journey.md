@@ -69,7 +69,7 @@ Python's allure lies in its elegant simplicity and clean code. The mandatory ind
 
 While Python has stood the test of time, boasting both simplicity for newcomers and power for experts, its Achilles' heel has traditionally been performance. However, recent Python versions, such as 3.11, have significantly improved in this aspect. For resource-intensive tasks, integrating other languages like C/C++ or Rust for heavy lifting within a package remains a viable option.
 
-## [Rust: A Breath of Fresh Air in the World of Memory Errors](https://www.rust-lang.org/)
+## [Rust: A Breath of Fresh Air in the World of Memory Errors](https://www.rust-lang.org)
 
 ![Rust Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg)
 
@@ -101,5 +101,6 @@ I would like to explain the reason for the reference of the term ikigai. In simp
 For us, as programmers, it means finding a way to make a living doing something we're passionate about—programming. It's about finding that perfect balance where your work aligns with your interests, benefits the world, and provides for your needs.
 
 ![ikigai](https://www.researchgate.net/profile/Daphna-Arbell-Kehila-2/publication/331982903/figure/fig3/AS:740356199038990@1553526081990/IKIGAI-A-Japanese-concept-meaning-A-Reason-for-Living-This-figure.jpg){: width="700" height="400" }
+
 credit: [researchgate.net](https://www.researchgate.net/figure/IKIGAI-A-Japanese-concept-meaning-A-Reason-for-Living-This-figure_fig3_331982903)
 
