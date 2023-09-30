@@ -36,4 +36,17 @@ A little optimization project [zip_test](https://github.com/horahh/zip_test) in 
 
 The code heavily relies on parallel library rayon uses iterators, closures and map reduce functions which is very [functional](https://doc.rust-lang.org/book/ch13-00-functional-features.html) influenced syntax.
 
+### Zip File Processing
+
+Zip files are an efficient way to store information specially if it comes from text, also  are though of as just an array of bytes and when decompressed their contents could be known. Actually zip file format consists of a header that provides pointers in this byte array to the different files the file holds so that individual files could be extracted. This is something very efficient in order to process only some of the content files.
+
+To process a zip file there is a [crate](https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html) called zip-rs which is easy to use and very stable. For now is the selected library to start our benchmarking.
+
+To process the files efficiently we are going to use rayon which is another crate for parallel processing, this way will allow us to take the most advantage out of the multiple cores in the processor.
+
+
+``` Rust
+
+```
+
 ## TO BE CONTINUED...

@@ -75,7 +75,7 @@ Rust has caught my interest since 2020 and I have dedicated some time to learnin
 
 A good article to better understand why Rust is so unique and interesting for modern high optimization problems is [Rust is the Best Language For Data Infra](https://www.arroyo.dev/blog/rust-for-data-infra) written by  Micah Wylde, explaining most Rust strengths in detail, very recomended lecture.
 
-## [Ikigai](https://medium.com/@marenkate/ikigai-and-the-four-ps-how-to-get-paid-enjoy-your-work-solve-problems-and-find-purpose-8c9dc615648f)
+## Why the reference to [Ikigai](https://medium.com/@marenkate/ikigai-and-the-four-ps-how-to-get-paid-enjoy-your-work-solve-problems-and-find-purpose-8c9dc615648f)?
 
 To explain in simple terms Ikigai is the confluence of what you are passionate about, what the world needs and what you can be paid for.
 
