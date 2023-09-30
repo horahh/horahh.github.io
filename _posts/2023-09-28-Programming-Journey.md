@@ -65,7 +65,7 @@ It is very common for a SW Engineer to deal with memory errors like null pointer
 I could not shy being amazed by the Rust promess of not having to deal with memory problems by simply using the language, perhaps a little bit of overstatement, which would better be stated as not having to deal with memory problems at runtime which means pulling these at compile time, so the game turns into understanding what the compiler complains are about and how to properl solve them. But once the code compiles there is little else to be done which is amazing.
 
 
-# Rust Mindset  
+## Rust Mindset  
 
 When programming in Rust there are different prefered patterns than for example CPP or simple C, of course while or for loops could be used but not so much in the spirit of the language, better aim to work with iterators. That really changes how the brain processes the actions needed and the workflow.
 
@@ -74,5 +74,15 @@ Rust is a really efficient language that attempts to implement what the call a t
 Rust has caught my interest since 2020 and I have dedicated some time to learning it sporadically but being more serious about it in 2023. Hopefully we can explore more about the language with cool projects and share some learnings.
 
 A good article to better understand why Rust is so unique and interesting for modern high optimization problems is [Rust is the Best Language For Data Infra](https://www.arroyo.dev/blog/rust-for-data-infra) written by  Micah Wylde, explaining most Rust strengths in detail, very recomended lecture.
+
+## [Ikigai](https://medium.com/@marenkate/ikigai-and-the-four-ps-how-to-get-paid-enjoy-your-work-solve-problems-and-find-purpose-8c9dc615648f)
+
+To explain in simple terms Ikigai is the confluence of what you are passionate about, what the world needs and what you can be paid for.
+
+In other words the idea is to make a living based on something which you are passionate about which of course is programming.
+
+![ikigai](https://www.researchgate.net/profile/Daphna-Arbell-Kehila-2/publication/331982903/figure/fig3/AS:740356199038990@1553526081990/IKIGAI-A-Japanese-concept-meaning-A-Reason-for-Living-This-figure.jpg){: width="700" height="400" }
+credit: [researchgate.net](https://www.researchgate.net/figure/IKIGAI-A-Japanese-concept-meaning-A-Reason-for-Living-This-figure_fig3_331982903)
+
 
 ## TO BE CONTINUED ...
