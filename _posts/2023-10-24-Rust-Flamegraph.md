@@ -4,16 +4,17 @@ date: 2023-10-24 12:00:00 -0600
 categories: [programming,software]
 tags: [programming,hardware,software,rust,python]
 ---
-# Learning Flamegraphs with Cargo and Rust
-## [Flamegraphs](https://www.brendangregg.com/flamegraphs.html) 
+# Uncover Performance Bottlenecks with Rust [Flamegraphs](https://www.brendangregg.com/flamegraphs.html)
 
-Flame Graphs are visualizations based call stack sampled at quantized moments to statistically reflect from the total spent time running (sampling) an application what function did the program was running and tying that to the respective call stack, the samples with the same call stack get grouped togheter showing a representation of time based on the width of each function call in the stack.
+## Flame Graphs: A Visual Insight into Your Rust Applications
 
-Flame Graphs are images but it goes beyond that, they are svg file that are interactive so that you can select a specific call and kind of zoom and better uderstand what are the particular details related to the time spent by a function and how is distributed based on what other funtions were called by it.
+Flame Graphs are not just images; they are interactive SVG files that provide an in-depth view of your application's performance. These visualizations are based on call stack samples taken at quantized moments, allowing you to statistically analyze how your program spends its time. Each function call within the stack is represented, and samples with the same call stack are grouped together to show a time distribution based on the width of each function call. In other words, Flame Graphs help you pinpoint which functions consume the most time in your application.
+
+![Flame_Graph](https://drive.google.com/uc?export=view&id=1hmbXxxizET_26TiI1jjRUqzORoJ4vOlV)
 
 ## Using Cargo to create a flamegraph
 
-In order to create a flamegraph we need an aplication that span for enough time to be sampled and provide enough insights on its behavior, as a test example  lets work with this simple code:
+To create a Flame Graph, you need an application that runs long enough to be effectively sampled and provides insights into its behavior. Let's work with a simple code example:
 
 ### Code Example
 ```rust
@@ -43,49 +44,49 @@ fn f4() {
 }
 
 ```
+This code allows us to observe how execution time is divided between functions. In a real application, this would help identify bottlenecks or time-consuming functions. The functions primarily consist of sleep statements, making it easy to control the visualization.
 
-Let's disect what the code is doing, the idea is to run several functions and allow us to observe how the execution time is split between the functions so that in a real application we could be able to identify the bottleneck or the functions that take the most time so we could concentrate efforts in those.
+### Getting Started
 
-The functions are only sleeping for the purpose of allowing a good control on how the visualiztion is shown. The execution time will get splitted proportional to the time spend on each function, notice f3 calls f4 so that in the flamegraph f3 time should be the sum of the sleep within f3 plus the time of f4, and will also allow the visualiztion of the call stack of f4 on top of f3.
-
-### Dependencies
-Install cargo-flamegraph 
+Install __cargo-flamegraph__
 
 ```
 cargo install flamegraph
 ```
 
-Install linux perf tools:
+Install __linux-perf__:
 
-* https://www.swift.org/server/guides/linux-perf.html
+* [linux-perf](https://www.swift.org/server/guides/linux-perf.html)
 
 ### Compiling with Cargo
 
-We have the code and now is a matter of using cargo to create a new project.
+Now, let's create a new project using Cargo:
 
 
 ```
 cargo new perf_bench
+cd perf_bench
 cargo run
 cargo flamegraph
 ```
 
 
-### Flamegraph
+### Flamegraph Visualization
 
-![Flame Graph](https://drive.google.com/uc?export=view&id=1hmbXxxizET_26TiI1jjRUqzORoJ4vOlV)
+The resulting Flame Graph shows a hierarchy of function calls, representing the execution time distribution:
 
-Notice the botton having the executable name which is the same name of the project and then going up in the call stack, main can be seen as well as f1...f3 and the nested f4 call, just as expected within them the respective calls to the sleep function.
+* At the bottom is the name of the executable, which is the same as the project name.
+* Moving up the stack, you can see the "__main__" function, along with "__f1__", "__f2__", "__f3__", and the nested "__f4__" call, as expected.
+* Within these functions, you'll find the respective calls to the sleep function.
 
-From the graph it can clearly seen how the execution time is spend along the call stack which would be really helpful to get the insights of what are the bottle necks and where to spend effort optimizing.
+Notice the botton having the executable name which is the same name of the project and then going up in the call stack, main can be seen as well as f1...f3 and the nested f4 call, just as expected within them the respective calls to the "__sleep__" function.
 
-This graph was generated on Ubuntu22 running WSL2.
+This visual representation of execution time along the call stack is incredibly helpful for gaining insights into performance bottlenecks and optimizing your application.
 
-Additional Information on flamegraphs:
-* [Rust-Flamegraphs](https://github.com/flamegraph-rs/flamegraph#systems-performance-work-guided-by-flamegraphs)
-* [Flamegraphs](https://www.brendangregg.com/flamegraphs.html)
+## Additional Resources
+For more information on Flame Graphs, check out the following resources:
 
+* [Rust_Flamegraphs_GitHub_Repository](https://github.com/flamegraph-rs/flamegraph#systems-performance-work-guided-by-flamegraphs)
+* [Brendan_Greggs_Flamegraphs](https://chat.openai.com/c/41615698-1fc1-4654-9637-5d5aa5f88720#:~:text=Brendan%20Gregg%27s%20Flamegraphs)
 
-### Github code
-
-* [github_link_to_this_project](https://github.com/flamegraph-rs/flamegraph#systems-performance-work-guided-by-flamegraphs)
+Explore your Rust application's performance with Flamegraphs and uncover hidden bottlenecks for more efficient code. For the full code and more details, visit the project's [Github_repository](https://github.com/flamegraph-rs/flamegraph#systems-performance-work-guided-by-flamegraphs)
