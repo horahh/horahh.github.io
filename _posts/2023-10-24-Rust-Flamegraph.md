@@ -12,6 +12,9 @@ Flame Graphs are not just images; they are interactive SVG files that provide an
 
 ![Flame Graph](/assets/images/flamegraph.svg)
 
+<p><object data="/assets/images/flamegraph.svg" type="image/svg+xml" width=900 height=522>
+</object></p>
+
 ## Using Cargo to create a flamegraph
 
 To create a Flame Graph, you need an application that runs long enough to be effectively sampled and provides insights into its behavior. Let's work with a simple code example:
