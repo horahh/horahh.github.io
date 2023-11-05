@@ -10,7 +10,7 @@ tags: [programming,hardware,software,rust,python]
 
 Flame Graphs are not just images; they are interactive SVG files that provide an in-depth view of your application's performance. These visualizations are based on call stack samples taken at quantized moments, allowing you to statistically analyze how your program spends its time. Each function call within the stack is represented, and samples with the same call stack are grouped together to show a time distribution based on the width of each function call. In other words, Flame Graphs help you pinpoint which functions consume the most time in your application.
 
-![Flame_Graph](https://drive.google.com/uc?export=view&id=1hmbXxxizET_26TiI1jjRUqzORoJ4vOlV)
+![Flame Graph](/assets/images/flamegraph.svg)
 
 ## Using Cargo to create a flamegraph
 
