@@ -159,4 +159,6 @@ Remember to visit the [Criterion](https://bheisler.github.io/criterion.rs/book/g
 
 * Github code at: [perf_bench](https://github.com/horahh/perf_bench)
 
+* Additional Info [benchmarking-rust-code-using-criterion-rs](https://engineering.deptagency.com/benchmarking-rust-code-using-criterion-rs)
+
 
