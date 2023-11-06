@@ -20,7 +20,7 @@ Let's start with a simple Rust code snippet based on the previous post for flame
   use core::time::Duration;
   use std::thread;
 
---fn main() { // W: function `main` is never used
+fn main() { // W: function `main` is never used
       perf_bench();
   }
 
@@ -39,12 +39,12 @@ Let's start with a simple Rust code snippet based on the previous post for flame
       thread::sleep(Duration::from_millis(20));
   }
   fn f3() {
-~     thread::sleep(Duration::from_millis(30));
+      thread::sleep(Duration::from_millis(30));
       f4()
   }
 
   fn f4() {
-~     thread::sleep(Duration::from_millis(40));
+      thread::sleep(Duration::from_millis(40));
   }
 
   ```
@@ -153,5 +153,10 @@ When working on performance you also would need to understand HW capabilities li
 Remember to visit the [Criterion](https://bheisler.github.io/criterion.rs/book/getting_started.html) book.  Also, if you want to explore in deep those details in your project, go to the target/criterion/report folder and will find some html reports like this:
 
 ![Criterion_Report](/assets/images/2023-11-05-Rust-Criterion-Benchmark/criterion_report.png)
+
+## References
+* [Criterion](https://bheisler.github.io/criterion.rs/book/getting_started.html)
+
+* Github code at: [perf_bench](https://github.com/horahh/perf_bench)
 
 
