@@ -1,4 +1,3 @@
-
 ---
 title: Benchmarks With Rust
 date: 2023-11-05 12:00:00 -0600
