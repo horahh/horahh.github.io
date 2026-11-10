@@ -1,3 +1,9 @@
+---
+title: The Era of Smart Networks
+date: 2026-11-10 12:00:00 -0600
+categories: [programming,software]
+tags: [programming,hardware,software,rust,python,networks,networking,ultra-ethernet,UALink,ESUN]
+---
 # The Era of Smart Networks
 
 For decades, enterprise IT treated the network as a dumb commodity pipe. While compute and storage evolved at breakneck speed, the algorithms governing how data moves across the data center barely changed—relying on legacy congestion controls and best-effort routing built for web traffic, not distributed supercomputers.
